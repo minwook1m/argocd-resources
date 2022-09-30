@@ -23,7 +23,7 @@ spec:
       containers:
       - name: main
         image: kimkimee2/node-http:latest
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         resources:
           requests:
             cpu: 100m
